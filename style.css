@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+body {
+    margin: 0;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Work Sans', 'Bold';
+    padding: 5px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: 'Work Sans', 'Regular 400';
+}
+p{
+    font-size: larger;
+    font-family: 'Work Sans', 'Regular';
+    text-align: center;
+}
+a{
+    color: black;
+}
+/* Search for CSS property lists in MDN 
+or W3Schools CSS reference */
+/* Search CSS selectors in W3schools */
+#navigation-links a:hover {
+color: grey;
+background-color: pink;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+#navigation-links2 {
+    background-color: rgb(201, 99, 116);
+    display: flex;
+    justify-content: center;
+    }
+
